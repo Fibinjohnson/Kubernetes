@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: secret-basic-auth
+type: Opaque
+stringData:
+  username: mongodbF # required field for kubernetes.io/basic-auth
+  password: bW9uZ29kYg== # required field for kubernetes.io/basic-auth
